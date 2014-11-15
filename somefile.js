@@ -12,6 +12,7 @@
 	}
 	refreshCookies();
 	console.log(); 
+	console.log(555);
 	var http = new XMLHttpRequest(), url = "https://www.mycabinet.ru/widget/cookie_init.php", params = "init=1";
 	http.open("POST", url, true);
 	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
